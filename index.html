@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    <title>Escape.</title>
+</head>
+<body>
+    <main>
+    <div class="passo ativo" id="passo-0">
+            <img src = "passo0.png" alt =>
+            <p> Você acorda em um quarto fechado, cheio de camas brancas similar a um hospital. Uma áurea amedontradora cai sobre ti, impossível desamparar do imenso desejo e sentimentos de sair desse local.</p>
+            <button class = "btn-proximo" data-proximo="1">Investigar em cima das camas</button>
+            <button class = "btn-proximo" data-proximo="2">Procurar em baixo das camas</button>
+        </div>
+    <div class="passo" id="passo-1">
+            <p>O chão é empoeirado e é possível observar algumas manchas que parecem estar ali há um bom tempo, como se ninguém viesse aqui com frequência, mas não encontra nada.</p>
+            <button class = "btn-proximo" data-proximo="2">Procurar em baixo das camas</button>
+        </div>
+    <div class="passo" id="passo-2">
+            <p>Ao observar em baixo das camas, você consegue encontrar uma chave. Olhando de volta no ambiente do quarto, a grade com um cadeado parece ser o único lugar para se ir agora.</p>
+            <button class = "btn-proximo" data-proximo="3">Usar a chave no cadeado.</button>
+        </div>
+    <div class="passo" id="passo-3">
+            <p>Se depara com um extenso e fino corredor, ao chegar no final dele, há dois caminhos para ir.</p>
+            <button class = "btn-proximo" data-proximo="4">Ir pela direita</button>
+            <button class = "btn-proximo" data-proximo="5">Ir pela esquerda</button>
+        </div>
+
+    <div class="passo" id="passo-4">
+        <img src="img-passo4.jpg" alt="imagem">
+            <p>É possível encontrar uma sala de experimentos, olhando ao seu arredor, um armário cheio de substâncias pode ser visto.</p>
+            <button class = "btn-proximo" data-proximo="6">Investigar as substâncias</button>
+            <button class = "btn-proximo" data-proximo="5">Voltar e ir pela esquerda</button>
+        </div>
+    <div class="passo" id="passo-6">
+            <p>Você passa alguns minutos tentando entender as substâncias, até que se escuta um barulho um tanto quanto estranho.</p>
+            <button class = "btn-proximo" data-proximo="7">Se esconder</button>
+            <button class = "btn-proximo" data-proximo="8">Procurar a fonte do barulho</button>
+        </div>
+    <div class="passo" id="passo-7">
+            <p>Escondido no primeiro lugar que encontrou, um lugar apertado com algumas teias de aranha, uma pessoa encapuzada entra no ambiente, tendo um objeto cortante em suas mãos - agindo como se buscasse por alguém.</p>
+            <button class = "btn-proximo" data-proximo="10">Correr quando ele estiver distraído</button>
+            <button class = "btn-proximo" data-proximo="11">Esperar uma oportunidade para atacar de surpresa</button>
+        </div>
+    <div class="passo" id="passo-8">
+            <p>Uma pessoa encapuzada entra no ambiente, tendo um objeto cortante em suas mãos - agindo como se buscasse por alguém. Essa pessoa se vira, ela te encontrou.</p>
+            <button class = "btn-proximo" data-proximo="9">Correr</button>
+        </div>
+    <div class="passo" id="passo-9">
+            <p>ELE TE ENCONTROU.</p>
+            <button class = "btn-proximo" data-proximo="0">Volte do ínicio</button>
+        </div>
+    <div class="passo" id="passo-10">
+            <p>Consegue se esconder, tendo como único refúgio ir pela sala da esquerda</p>
+            <button class = "btn-proximo" data-proximo="5">Correr de volta ao corredor e ir pela esquerda</button>
+        </div>
+    <div class="passo" id="passo-11">
+            <p>Em um movimento rápido e sútil, a faca é arrancada da mão da figura encapuzada, e em outro deslocamento inesperado, você usa o objeto cortante para matar o cara.</p>
+            <button class = "btn-proximo" data-proximo="5">Correr de volta ao corredor e ir pela esquerda</button>
+        </div>
+
+    <div class="passo" id="passo-5">
+            <p>Você chega em uma sala de tamanho razoável, porém aparentemente vazia. Uma estante é vista pelo canto, uma lareira a sua esquerda, tendo diversas velas posicionadas em cima.</p>
+            <button class = "btn-proximo" data-proximo="12">Investigar as estantes</button>
+            <button class = "btn-proximo" data-proximo="13">Observar as velas mais de perto</button>
+        </div>
+    <div class="passo" id="passo-12">
+            <p>Vasculhando entre os livros empoeirados e velhos, um papel amassado cai lentamente no chão. Recolhendo esse mistérioso papel, é possível ler a seguinte frase: "Para sair, basta buscar a quem ilumina."</p>
+            <button class = "btn-proximo" data-proximo="13">Observar as velas mais de perto</button>
+        </div>
+    <div class="passo" id="passo-13">
+            <p>Olhando e encostando vela por vela, ainda meio relutante, é perceptível que uma delas está fixa em cima da lareira.</p>
+            <button class = "btn-proximo" data-proximo="14">Tentar puxar a vela</button>
+        </div>
+    <div class="passo" id="passo-14">
+        <img src="passo9.jpg" alt="imagem">
+            <p>Uma passagem se abre, revelando o mundo exterior: Você está livre.</p>
+            <button class = "btn-proximo" data-proximo="0">Recomeçar</button>
+
+        </div>
+    </main>
+    <script src ="script.js"></script>
+    
+</body>
+</html>
